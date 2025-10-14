@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kelurahan</title>
+</head>
+<body>
+    <h2>Detail Warga: {{ object.nama }} </h2>
+    <p> NIK: {{ object.nik }} </p>
+    <p> Alamat: {{ object.alamat }} </p>
+
+    <hr>
+    <h3>Daftar Pengaduan:</h3>
+    <ul>
+        {% for pengaduan in object.pengaduan_set.all %}
+        <li><b>{{aduan.judul}}</b> - {{aduan.get_status_display}}</li>
+        {% empty %}
+        <li>Tidak ada pengaduan</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
