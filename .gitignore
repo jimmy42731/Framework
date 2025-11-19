@@ -1,0 +1,72 @@
+# ===========================
+# Byte-compiled / optimized / DLL files
+# ===========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ===========================
+# C Extensions
+# ===========================
+*.so
+
+# ===========================
+# Distribution / packaging
+# ===========================
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ===========================
+# Django
+# ===========================
+*.log
+*.pot
+*.py[cod]
+db.sqlite3
+media/
+staticfiles/
+.env
+.env.*
+__pycache__/
+local_settings.py
+
+# ===========================
+# Virtual environment
+# ===========================
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# ===========================
+# IDEs / Editors
+# ===========================
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.bak
+*.tmp
+
+# ===========================
+# OS files
+# ===========================
+.DS_Store
+Thumbs.db
+desktop.ini
